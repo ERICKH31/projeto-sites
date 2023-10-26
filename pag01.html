@@ -6,53 +6,98 @@
     <link rel="stylesheet" href="estilos/media-quary.css">
     <title>Meus projetos</title>
     <style>
+        @font-face{
+            font-family: pac;
+            src: url(fontes/pac_libertas/PAC\ LIBERTAS\ font.ttf) format(opentype);
+        }
         *{
             margin: 0px;
             padding: 0px;
         }
+        :root{
+            --font-titulo: "pac", sans-serif;
+        }
         body{
             font-family: Georgia, 'Times New Roman', Times, serif;
-            background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.668), rgba(0, 0, 0, 0.993));
+            background-image: linear-gradient(to bottom, #98C1D9, #F2F2F2);
             background-attachment: fixed;
         }
-        main{
-
-        }
-        main > h1{
+        header > h1{
             text-align: center;
+            margin-top: 30px;
+            font-family: var(--font-titulo);
+        }
+        h2{
+            font-family: var(--font-titulo);
         }
         img {
             width: 250px;
             height: 250px;
             padding: 10px;
             
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
-            box-sizing: border-box;
+            
         }
-        div{
+        main > div{
+            text-align: center;
             display: inline-block;
             border: 2px solid black;
             border-radius: 10px;
-            background-color: black;
-            color: white;
-            /*width: 260px;
-            height: 300px;
-            padding: 20px;
-            margin: 30px;
-            border: 5px solid black;*/
+            box-shadow: 10px 10px rgba(0, 0, 0, 0.462);
+            width: 260px;
+            height: 350px;
+            padding: 10px;
+            margin: 50px;
+        }
+        iframe{
+            width: 260px;
+            height: 260px;
+            
         }
 
     </style>
 </head>
 <body>
-    <main>
+    <header>
         <h1>Modelos e projetos de sites </h1>
-        
-        <div class="quadrado">
-            <img src="fotos/andoid.jpg" alt="android">
-            <p><strong>página sobre o projeto android</strong></p>
+    </header>
+    <main>
+        <div>
+            <iframe src="https://erickh31.github.io/segundo-projeto/" frameborder="0" ></iframe>
+            <h2><small>Projeto android</small></h2>
             <p>Aqui vai a descrição do site android</p>
         </div>
+        <div>
+            <iframe src="https://erickh31.github.io/projeto-login/" frameborder="0"></iframe>
+            <h2><small>tela de login</small></h2>
+            <p>aqui vai a descrição da tela login</p>
+        </div>
+        <div>
+            <iframe src="https://erickh31.github.io/projeto-barbearia/" frameborder="0"></iframe>
+            <h2><small>barbearia</small></h2>
+            <p>aqui vai a descrição da barbearia</p>
+        </div>
+        <div>
+            <iframe src="https://erickh31.github.io/menu/" frameborder="0"></iframe>
+            <h2><small>Menu hamburguer</small></h2>
+            <p>página com exemplo de menu hamburguer</p>
+        </div>
+        <div>
+            <iframe src="https://erickh31.github.io/projeto-social/" frameborder="0"></iframe>
+            <h2><small>site social</small></h2>
+            <p>aqui vai a descrição do projeto social</p>
+        </div>
+        <div>
+            <iframe src="https://erickh31.github.io/pagina-teste/" frameborder="0"></iframe>
+            <h2><small>modelos de exemplo</small></h2>
+            <p>aqui vai a descrição das paginas</p>
+        </div>
+        <div>
+            <iframe src="https://erickh31.github.io/projeto-cordel/" frameborder="0"></iframe>
+            <h2><small>projeto Cordel</small></h2>
+            <p>poema do cordel</p>
+        </div>
+
+       
      </main>
 </body>
 </html>
