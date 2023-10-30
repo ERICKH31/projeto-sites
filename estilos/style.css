@@ -45,9 +45,9 @@ section#login{
 }
 section#login > div#imagem {
     display: block;
-    background: var(--cor04) url(../fotos/foto-menu.jpeg) no-repeat;
+    background: var(--cor04) url(../fotos/html-css.png) no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 150px;
 }
 div#formulario{
     display: block;
@@ -116,7 +116,4 @@ form > input[type=submit]:hover{
     border-radius: 5px;
     color: var(--cor01);
     
-}
-footer{
-
 }
