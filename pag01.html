@@ -29,6 +29,7 @@
         }
         h2{
             font-family: var(--font-titulo);
+            text-align: center;
         }
         img {
             width: 250px;
@@ -41,32 +42,51 @@
             text-align: center;
             display: inline-block;
             margin: 50px;
-            padding: 10px;
+            padding: 5px;
             width: 260px;
             height: 250px;
-            border: 2px solid black;
-            
-            border-radius: 10px;
-
-            /*
-            
-            
-            box-shadow: 10px 10px rgba(0, 0, 0, 0.462);
-            */
         }
         iframe{
             position: relative;
-            width: 320px;
-            height: 390px;
+            width: 300px;
+            height: 300px;
+            border: 3px solid white;
+            border-radius: 20px;
+            box-shadow: 10px 10px rgba(0, 0, 0, 0.462);
             
+        }
+        div.texto{
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            width: 250px;
+            text-align: justify;
+            
+        }
+        div.texto a{
+            text-decoration: none;
+            color: #69aed6;
+        }
+        div.texto a:hover{
+            text-decoration: underline;
+            color: black;
         }
         footer{
             background-image: linear-gradient(to right,#98C1D9, transparent);
             text-align: center;
             font-size: 0.9em;
-            margin-top: 20px;
+            margin-top: 35px;
             padding: 5px;
             border-radius: 5px;
+            
+        }
+        footer a{
+            text-decoration: none;
+            color: #69aed6;
+        }
+        footer a:hover{
+            text-decoration: underline;
+            color: black;
         }
     </style>
 </head>
@@ -77,35 +97,51 @@
     <main>
         <div>
             <iframe src="https://erickh31.github.io/segundo-projeto/" frameborder="0" height="500"></iframe>
-            <h2><small>Projeto android</small></h2>
-            <p>Aqui vai a descrição do site android</p>
+            <div class="texto">
+                <h2><small>Projeto Android</small></h2>
+                <p> O <a href="https://erickh31.github.io/segundo-projeto/" target="_blank">Site</a> conta como foi criado o mascote do projeto Android desenvolvido por <a href="https://www.irinablok.com/" target="_blank">Irina Blok,</a> site feito com HTML e CSS.</p>
+            </div>
         </div>
+
         <div>
             <iframe src="fotos/foto.login.jpg" frameborder="0"></iframe>
-            <h2><small>tela de login</small></h2>
-            <p>aqui vai a descrição da tela login</p>
+            <div class="texto">
+                <h2><small>Tela de Login</small></h2>
+                <p>Uma <a href="https://erickh31.github.io/projeto-login/" target="_blank">Tela de Login</a> ideal para o seu site com algumas animações, transições e efeito de cores. site feito com HTML e CSS.</p>
+            </div>
         </div>
+
         <div>
             <iframe src="fotos/foto.barber02.jpg" frameborder="0"></iframe>
-            <h2><small>barbearia</small></h2>
-            <p>aqui vai a descrição da barbearia</p>
+            <div class="texto">
+                <h2><small>barbearia</small></h2>
+                <p>Projeto <a href="https://erickh31.github.io/projeto-barbearia/">Barbearia</a> com informações de localização, tabela de preços, redes sociais e páginas segundarias de cada barbeiro. Site feito com HTML e CSS.</p>
+            </div>
         </div>
+
         <div>
             <iframe src="https://erickh31.github.io/menu/" frameborder="0"></iframe>
-            <h2><small>Menu hamburguer</small></h2>
-            <p>página com exemplo de menu hamburguer</p>
+            <div class="texto">
+                <h2><small>Menu hamburguer</small></h2>
+                <p>Uma página simples para mostrar o exemplo de <a href="https://erickh31.github.io/menu/#">Menu Hamburguer</a>. Feito com HTML, CSS e JavaScript.</p>
+            </div>
         </div>
         <div>
             <iframe src="fotos/social.jpg" frameborder="0"></iframe>
-            <h2><small>site social</small></h2>
-            <p>aqui vai a descrição do projeto social</p>
+            <div class="texto">
+                <h2><small>social</small></h2>
+                <p>O projeto de <a href="https://erickh31.github.io/projeto-social/">Rede Social</a> é focado no front-end. Contém páginas e links internos, transições e imagens. Feito com HTML e CSS. </p>
+            </div>
         </div>
+
         <div>
             <iframe src="https://erickh31.github.io/projeto-cordel/" frameborder="0"></iframe>
-            <h2><small>projeto Cordel</small></h2>
-            <p>poema do cordel</p>
+            <div class="texto">
+                <h2><small>projeto Cordel</small></h2>
+                <p>O <a href="https://erickh31.github.io/projeto-cordel/">Projeto Cordel</a> é um poema do <ins>milton duarte</ins>, destacando nas imagens com efeito parallax simples. Feito com HTML e CSS.</p>
+            </div>
         </div>
      </main>
-     <footer>site desenvolvdo por <a href="#">erick henrique</a></footer>
+     <footer>Todas as páginas e sites foram feitas junto com o professor <ins>Gustavo Guanabara</ins> do <a href="https://www.youtube.com/@CursoemVideo">CursoemVideo.</a></footer>
 </body>
 </html>
